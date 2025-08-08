@@ -1,7 +1,7 @@
-import React from 'react';
-import ProductCatalog from './components/ProductCatalog';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import React from "react";
+import Products from "./components/Products";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
 function App() {
   return (
@@ -20,11 +20,11 @@ function App() {
           </div>
         </div>
       </nav>
-      
+
       <main>
-        <ProductCatalog />
+        <Products />
       </main>
-      
+
       <footer className="bg-dark text-light py-4 mt-5">
         <div className="container text-center">
           <p className="mb-2">
